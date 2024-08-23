@@ -56,12 +56,15 @@ void main(List<String> arguments) {
   // int b = 1;
   // int c = 1;
 
-  String? name;
-  int? age;
-  String? address;
+  String name = "John Doe";
+  int age = 20;
+  String address = "USA";
   print("name  is : $name");
   print("age :  $age");
   print("adress : $address");
+
+  // 0 1 1 2 3 5 8 13 21 34 ....
+  // i -> fibonaci(1)
 }
 
 int caculateTotalAmount() {
